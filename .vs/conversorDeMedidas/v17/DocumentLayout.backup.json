@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\phsli\\Documents\\conversorDeMedidas\\conversorDeMedidas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08F45B0B-FF77-45E7-A22F-814EC142BF35}|conversorDeMedidas\\conversorDeMedidas.csproj|c:\\users\\phsli\\documents\\conversordemedidas\\conversordemedidas\\conversordemedidas\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08F45B0B-FF77-45E7-A22F-814EC142BF35}|conversorDeMedidas\\conversorDeMedidas.csproj|solutionrelative:conversordemedidas\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{08F45B0B-FF77-45E7-A22F-814EC142BF35}|conversorDeMedidas\\conversorDeMedidas.csproj|c:\\users\\phsli\\documents\\conversordemedidas\\conversordemedidas\\conversordemedidas\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{08F45B0B-FF77-45E7-A22F-814EC142BF35}|conversorDeMedidas\\conversorDeMedidas.csproj|solutionrelative:conversordemedidas\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -27,19 +23,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "telaInicial.cs",
-              "DocumentMoniker": "C:\\Users\\phsli\\Documents\\conversorDeMedidas\\conversorDeMedidas\\conversorDeMedidas\\telaInicial.cs",
-              "RelativeDocumentMoniker": "conversorDeMedidas\\telaInicial.cs",
-              "ToolTip": "C:\\Users\\phsli\\Documents\\conversorDeMedidas\\conversorDeMedidas\\conversorDeMedidas\\telaInicial.cs*",
-              "RelativeToolTip": "conversorDeMedidas\\telaInicial.cs*",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T00:03:05.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "telaInicial.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\phsli\\Documents\\conversorDeMedidas\\conversorDeMedidas\\conversorDeMedidas\\telaInicial.cs",
               "RelativeDocumentMoniker": "conversorDeMedidas\\telaInicial.cs",
