@@ -32,10 +32,10 @@
             cbConversao = new ComboBox();
             label2 = new Label();
             label3 = new Label();
-            lblValor = new Label();
             label5 = new Label();
             lblResultado = new Label();
             btnConverter = new Button();
+            tbValor = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -51,14 +51,16 @@
             // 
             // cbConversao
             // 
+            cbConversao.Cursor = Cursors.Hand;
             cbConversao.Font = new Font("Segoe UI Semilight", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cbConversao.FormattingEnabled = true;
-            cbConversao.Items.AddRange(new object[] { "Quilômetros para Milhas", "Quilômetros para Metros", "Quilômetros para Centímetro", "Milhas para Quilômetros", "Milhas para Metros", "Milhas para Centímetros", "Celsius para Fahrenheit", "Fahrenheit para Celsius", "Km/h para M/s" });
+            cbConversao.Items.AddRange(new object[] { "Quilômetros para Milhas", "Quilômetros para Metros", "Quilômetros para Centímetros", "Milhas para Quilômetros", "Milhas para Metros", "Milhas para Centímetros", "Celsius para Fahrenheit", "Fahrenheit para Celsius", "Km/h para M/s" });
             cbConversao.Location = new Point(12, 141);
             cbConversao.Name = "cbConversao";
             cbConversao.Size = new Size(487, 45);
             cbConversao.TabIndex = 1;
             cbConversao.SelectedIndexChanged += cbConversao_SelectedIndexChanged;
+            cbConversao.Click += cbConversao_Click;
             // 
             // label2
             // 
@@ -80,15 +82,6 @@
             label3.TabIndex = 3;
             label3.Text = "Valor a ser Convertido";
             // 
-            // lblValor
-            // 
-            lblValor.BackColor = Color.Silver;
-            lblValor.BorderStyle = BorderStyle.FixedSingle;
-            lblValor.Location = new Point(12, 252);
-            lblValor.Name = "lblValor";
-            lblValor.Size = new Size(487, 59);
-            lblValor.TabIndex = 4;
-            // 
             // label5
             // 
             label5.BackColor = Color.Transparent;
@@ -107,10 +100,13 @@
             lblResultado.Name = "lblResultado";
             lblResultado.Size = new Size(487, 68);
             lblResultado.TabIndex = 6;
+            lblResultado.TextAlign = ContentAlignment.MiddleCenter;
+            lblResultado.Click += lblResultado_Click;
             // 
             // btnConverter
             // 
             btnConverter.BackColor = Color.Green;
+            btnConverter.Cursor = Cursors.Hand;
             btnConverter.Font = new Font("Segoe UI Semilight", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnConverter.Location = new Point(230, 340);
             btnConverter.Name = "btnConverter";
@@ -120,16 +116,29 @@
             btnConverter.UseVisualStyleBackColor = false;
             btnConverter.Click += btnConverter_Click;
             // 
+            // tbValor
+            // 
+            tbValor.BackColor = Color.Silver;
+            tbValor.Cursor = Cursors.IBeam;
+            tbValor.Font = new Font("Segoe UI Semilight", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tbValor.Location = new Point(12, 255);
+            tbValor.Name = "tbValor";
+            tbValor.Size = new Size(487, 43);
+            tbValor.TabIndex = 8;
+            tbValor.TextAlign = HorizontalAlignment.Center;
+            tbValor.TextChanged += tbValor_TextChanged;
+            tbValor.KeyDown += tbValor_KeyDown;
+            // 
             // telaInicial
             // 
             AutoScaleDimensions = new SizeF(22F, 54F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(511, 657);
+            Controls.Add(tbValor);
             Controls.Add(btnConverter);
             Controls.Add(lblResultado);
             Controls.Add(label5);
-            Controls.Add(lblValor);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(cbConversao);
@@ -145,6 +154,7 @@
             Text = "Conversor de Medidas";
             Load += telaInicial_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -153,9 +163,9 @@
         private ComboBox cbConversao;
         private Label label2;
         private Label label3;
-        private Label lblValor;
         private Label label5;
         private Label lblResultado;
         private Button btnConverter;
+        private TextBox tbValor;
     }
 }
