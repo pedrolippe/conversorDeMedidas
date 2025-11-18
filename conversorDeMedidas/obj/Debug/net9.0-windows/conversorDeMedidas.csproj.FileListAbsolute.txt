@@ -1,0 +1,17 @@
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\bin\Debug\net9.0-windows\conversorDeMedidas.exe
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\bin\Debug\net9.0-windows\conversorDeMedidas.deps.json
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\bin\Debug\net9.0-windows\conversorDeMedidas.runtimeconfig.json
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\bin\Debug\net9.0-windows\conversorDeMedidas.dll
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\bin\Debug\net9.0-windows\conversorDeMedidas.pdb
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\obj\Debug\net9.0-windows\conversorDeMedidas.telaInicial.resources
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\obj\Debug\net9.0-windows\conversorDeMedidas.csproj.GenerateResource.cache
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\obj\Debug\net9.0-windows\conversorDeMedidas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\obj\Debug\net9.0-windows\conversorDeMedidas.AssemblyInfoInputs.cache
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\obj\Debug\net9.0-windows\conversorDeMedidas.AssemblyInfo.cs
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\obj\Debug\net9.0-windows\conversorDeMedidas.csproj.CoreCompileInputs.cache
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\obj\Debug\net9.0-windows\conversorDeMedidas.sourcelink.json
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\obj\Debug\net9.0-windows\conversorDeMedidas.dll
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\obj\Debug\net9.0-windows\refint\conversorDeMedidas.dll
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\obj\Debug\net9.0-windows\conversorDeMedidas.pdb
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\obj\Debug\net9.0-windows\conversorDeMedidas.genruntimeconfig.cache
+C:\Users\phsli\Documents\conversorDeMedidas\conversorDeMedidas\conversorDeMedidas\obj\Debug\net9.0-windows\ref\conversorDeMedidas.dll
